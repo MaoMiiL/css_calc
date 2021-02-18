@@ -1,0 +1,18 @@
+
+.example-div{
+  width: 60%;
+  height: 200px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+.example{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: cornflowerblue;
+  /* margin: 0 auto; */
+  /* 左右自适应居中 margin*/
+  margin-left: calc(50vw - 150px);
+}
